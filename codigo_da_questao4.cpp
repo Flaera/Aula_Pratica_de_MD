@@ -2,7 +2,7 @@
 #include <iostream>
 #include <math.h>
 #define DEBUG1 if(0)
-#define DEBUG2 if(1)
+#define DEBUG2 if(0)
 
 using namespace std;
 
