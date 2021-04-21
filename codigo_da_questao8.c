@@ -13,7 +13,7 @@ int valorInicial(int a, int m, int cnt) {
     else return valorInicial(a, m, cnt + 1);
 }
 
-int MDCEuclides(int n, int d) {
+int MDCEuclides(int n, int d) { 
     if (d==0) return n;
     return MDCEuclides(d, n % d);
 }
